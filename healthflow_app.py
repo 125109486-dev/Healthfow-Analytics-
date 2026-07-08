@@ -7,6 +7,14 @@ from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings("ignore")
 
+st.markdown("""
+<style>
+body {
+  font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, serif;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="HealthFlow | Live ED Status",
     page_icon="https://img.icons8.com/color/48/hospital.png",
